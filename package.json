@@ -24,6 +24,12 @@
   },
   "homepage": "https://github.com/Purexo/html-to-rss#readme",
   "dependencies": {
-    "osmosis": "git+https://github.com/forkexo/node-osmosis.git"
+    "date-fns": "^1.30.1",
+    "node-fetch": "^2.6.0",
+    "rss": "^1.2.2",
+    "u-http-server": "git+https://github.com/tpoisseau/uNodeHttpServer.git#1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8"
   }
 }
